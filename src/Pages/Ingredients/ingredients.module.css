@@ -1,0 +1,47 @@
+
+.ingredient{
+    background-color: blanchedalmond;
+}
+.cardImg{
+    background-color: white;
+}
+.cardImg>img{
+    border-radius: 4px;
+    width: 100%;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+.items{
+    margin: 10px 20px;
+}
+.btn{
+    background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)!important;
+    width: 250px;
+    
+}
+.summary{
+    margin-bottom: 10px;
+}
+.title{
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(233, 162, 80) !important;
+    color: cornsilk;
+    font-size: large;
+}
+.cook{
+    text-align: center;
+    opacity: 0.7;
+    padding: 10px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* https://api.spoonacular.com/recipes/${id}/ingredientWidget.json?apiKey=${API_KEY} */

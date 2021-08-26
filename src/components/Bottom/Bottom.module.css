@@ -1,0 +1,33 @@
+.card{
+    max-width: 400px;
+    box-shadow:  16px 16px 44px #0a0a0a, 
+             -16px -16px 44px #282a28 !important;
+    transition: 0.3s all ease-in-out;
+    border-radius:20px ;
+    background-color: black;
+}
+.grid{
+    padding:5px 75px; 
+    
+}
+.textArea,.btn{
+    background-color: black;
+    color: white;  
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.media{
+    height: 140px;
+}
+.mainCard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.card{
+    margin-top: 10px;
+}

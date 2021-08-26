@@ -1,0 +1,28 @@
+.search{
+    display: grid;
+    place-items: center;
+    margin-top: 10px;
+    background-color: rgb(36, 32, 32);
+}
+.root{
+    padding: 2px 4px;
+    display: 'flex';
+    align-items: 'center';
+    width: 400px
+}
+.input{
+    margin-left:10px ;
+    flex: 1;
+}
+.iconButton{
+    padding: 10px;
+}
+.root>button{
+    margin-left: 140px;
+}
+
+.divider{
+    height: 28px;
+    margin: 4px;
+}
+
